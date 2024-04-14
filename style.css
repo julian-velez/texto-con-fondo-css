@@ -1,0 +1,31 @@
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 150px;
+}
+
+
+h1{
+    background-image:url("flor.jpg") ;
+    background-position: center;
+    background-size: 40%;
+    background-position: 50% 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.08);
+    animation: zoomout 10s ease 500ms forwards;
+    font-size: 10vw;
+    animation: julian 0.5s ease-in-out infinite;
+    transition: 0.5s;
+    /* border-bottom: 12px solid crimson; */
+}
+/* 
+@keyframes julian {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(13deg);
+    }
+} */
